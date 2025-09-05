@@ -2,7 +2,10 @@
 
 A modern, responsive financial dashboard built with Next.js and Tailwind CSS. This dashboard provides insights into AUM, SIP, transactions, and client data, featuring interactive charts and PDF generation.
 
+![Dashboard Screenshot](ui/dashboard.png)
+
 ## Features
+
 - Dashboard with key financial stats
 - Interactive charts (Area, Bar/Line, Bubble)
 - Data filtering and stats cards
@@ -11,6 +14,7 @@ A modern, responsive financial dashboard built with Next.js and Tailwind CSS. Th
 - Modular, component-based architecture
 
 ## Tech Stack
+
 - [Next.js](https://nextjs.org/)
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -19,10 +23,12 @@ A modern, responsive financial dashboard built with Next.js and Tailwind CSS. Th
 ## Getting Started
 
 ### Prerequisites
+
 - [Node.js](https://nodejs.org/) (v18 or above recommended)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
 ### Installation
+
 1. **Clone the repository:**
    ```sh
    git clone <repo-url>
@@ -36,14 +42,17 @@ A modern, responsive financial dashboard built with Next.js and Tailwind CSS. Th
    ```
 
 ### Running the Development Server
+
 ```sh
 npm run dev
 # or
 yarn dev
 ```
+
 Visit [http://localhost:3000](http://localhost:3000) to view the dashboard.
 
 ### Building for Production
+
 ```sh
 npm run build
 npm start
@@ -53,6 +62,7 @@ yarn start
 ```
 
 ### Project Structure
+
 ```
 app/                # Next.js app directory
   api/              # API routes for dashboard data
@@ -69,17 +79,20 @@ public/             # Static assets (if any)
 ```
 
 ### Customization
+
 - **Add new charts:** Place new chart components in `components/charts/` and use them in the dashboard.
 - **API routes:** Update or add new API endpoints in `app/api/` as needed.
 - **Styling:** Modify `tailwind.config.ts` and `globals.css` for custom styles.
 
 ### Scripts
+
 - `npm run dev` — Start development server
 - `npm run build` — Build for production
 - `npm start` — Start production server
 - `npm run lint` — Lint code
 
 ### License
+
 MIT
 
 ---
